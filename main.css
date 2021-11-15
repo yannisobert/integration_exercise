@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.top_part {
+  color: white;
+  font-size: 32px;
+  background: linear-gradient(-45deg, rgba(255, 255, 0, 0.5), rgba(65, 65, 232, 0.5));
+  height: 100vh;
+}
+.top_part .main_img {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+nav {
+  padding-top: 2%;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav > ul > img {
+  margin-right: 15%;
+}
+
+.commander_btn {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: #b2d234;
+}
+
+.main_title_part {
+  padding-top: 40%;
+  display: flex;
+  justify-content: center;
+  transform: translateX(50%);
+  transform: translateY(-50%);
+}
+.main_title_part .under_title {
+  transform: rotate(-10deg);
+}
+.main_title_part > h1 {
+  font-size: 80px;
+}
+
+.rs_part {
+  display: flex;
+  float: right;
+}
+
+main {
+  display: flex;
+  background-image: url("../images/texture.png");
+}
+main > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+main > div:first-child > h2 {
+  font-size: 52px;
+  margin-bottom: 8%;
+}
+main > div:first-child > a {
+  margin-top: 10%;
+  background-color: #b2d234;
+  border-radius: 8px;
+  width: 25%;
+}
+main > div:first-child > a > p {
+  margin: 20px;
+  color: white;
+}
+main div > h2 {
+  color: #b2d234;
+}
+main p {
+  margin-top: 20px;
+  width: 50%;
+  color: #606060;
+}
+
+.preparation_part {
+  background-image: url("../images/salade_preparation.png");
+  background-repeat: no-repeat;
+}
+
+.preparation_etiquette {
+  margin: 10%;
+  color: white;
+  text-align: center;
+  margin-left: 70vh;
+  width: 40%;
+  background-color: #b2d234;
+  color: white;
+}
+.preparation_etiquette .more_second {
+  color: #b2d234;
+}
+.preparation_etiquette .more_second > p {
+  padding: 20px;
+  background-color: white;
+}
+
+footer {
+  background-color: #b2d234;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

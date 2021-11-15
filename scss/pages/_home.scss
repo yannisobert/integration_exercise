@@ -1,0 +1,123 @@
+// For All
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+
+// Header Part
+
+.top_part {
+  color: white;
+  font-size: 32px;
+  background: linear-gradient(-45deg, rgba(255, 255, 0, 0.5), rgba(65, 65, 232, 0.5));
+  height: 100vh;
+  .main_img {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+}
+nav{
+  padding-top: 2%;
+  >ul {
+    display: flex;
+    justify-content: space-evenly;
+    >img {
+      margin-right: 15%;
+    }
+  }
+}
+.commander_btn {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: $main-color;
+}
+.main_title_part {
+  padding-top: 40%;
+  display: flex;
+  justify-content: center;
+  transform: translateX(50%);
+  transform: translateY(-50%);
+  .under_title {
+    transform:rotate(-10deg);
+
+  }
+  >h1 {
+    font-size: 80px;
+  }
+}
+.rs_part {
+  display: flex;
+  float: right;
+}
+
+
+// Main
+main {
+  display: flex;
+  background-image: url("../images/texture.png");
+  >div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    >h2 {
+      font-size: 52px;
+      margin-bottom: 8%;
+    }
+    >a {
+      margin-top: 10%;
+      background-color: $main-color;
+      border-radius: 8px;
+      width: 25%;
+      > p {
+        margin: 20px;
+        color: white;
+      }
+    }
+  }
+  div>h2 {
+    color: $main-color;
+  }
+
+  p {
+    margin-top: 20px;
+    width: 50%;
+    color: $text-color;
+  }
+}
+
+
+
+// Preparation Part
+.preparation_part {
+  @include background('../images/salade_preparation.png')
+}
+.preparation_etiquette {
+  margin: 10%;
+  color: white;
+  text-align: center;
+  margin-left: 70vh;
+  width: 40%;
+  background-color: $main-color;
+  color: white;
+  .more_second {
+
+    color: $main-color;
+    >p {
+      padding: 20px;
+      background-color: white;
+    }
+  }
+}
+
+
+
+
+

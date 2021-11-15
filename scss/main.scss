@@ -1,0 +1,19 @@
+@import 'abstract/variables',
+        'abstract/mixins';
+
+@import 'base/reset',
+        'base/base',
+        'base/commons';
+
+@import 'pages/home';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Footer
+footer {
+        background-color: $main-color;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+}
